@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.summary     = "jQuery Plugin"
   s.description = "Toggle autocomplete on forms."
   s.license     = "MIT"
-  s.files = Dir["{lib,assets}/**/*"] + ["MIT-LICENSE", "README.md"]
+  s.files       = Dir["{lib,assets}/**/*"] + ["MIT-LICENSE", "README.md"]
 
   s.add_dependency "railties", ">= 3.1"
 end
